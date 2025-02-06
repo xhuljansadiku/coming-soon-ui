@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+  }
+
+  img {
+    max-width: 120px;
+    height: auto;
+  }
+
+  .social-icons {
+    margin-top: 30px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 28px;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+
+  .bi-facebook:hover {
+    color: #3b5998; 
+  }
+
+  .bi-instagram:hover {
+    color: #e1306c; 
+  }
+
+  .bi-tiktok:hover {
+    color: #010101; 
+  }
+
+  .bi-youtube:hover {
+    color: #FF0000; 
+  }
+
+  .donate-button {
+    margin-top: 25px;
+  }
+
+  .donate-button:hover {
+    background-color: #098823 !important;
+    color: #ffffff !important;
+  }
